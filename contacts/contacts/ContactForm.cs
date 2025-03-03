@@ -2,7 +2,8 @@
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Linq;
+
 namespace contacts
 {
 
@@ -66,7 +67,8 @@ namespace contacts
                 }
             }
         }
-    }
+    }
+
     public class ContactForm : Form
     {
         private ContactManager contactManager;
