@@ -6,16 +6,7 @@ using System.Linq;
 namespace contacts
 {
 
-    public class Contact
-    {
-        public string Name { get; set; }
-        public string PhoneNumber { get; set; }
-        public Contact(string name, string phoneNumber)
-        {
-            Name = name;
-            PhoneNumber = phoneNumber;
-        }
-    }
+    
     public class ContactManager
     {
         public List<Contact> Contacts { get; private set; }
